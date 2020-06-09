@@ -1,0 +1,3 @@
+ForienSceneNavigator.SceneNavBar = class {
+
+};
