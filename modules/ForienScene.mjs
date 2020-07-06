@@ -16,7 +16,7 @@ class ForienScenes extends Scenes {
   static get(id) {
     let entity = game.scenes.get(id);
     let newEntityData = duplicate(entity);
-    newEntityData.name = this.activity + ": " + newEntityData.name;
+    newEntityData.name = this.activity() + ": " + newEntityData.name;
     let newEntity = {
       id: entity._id,
       _id: entity._id,
@@ -39,7 +39,9 @@ export class ForienSceneOpen extends ForienScene {
 
 export class ForienScenesOpen extends ForienScenes {
   static entity = 'SceneOpen';
-  static activity = 'Open';
+  static activity() {
+    return game.i18n.localize('ForienSceneNavigator.Activity.Open');
+  }
 }
 
 export class ForienSceneActivate extends ForienScene {
@@ -50,5 +52,7 @@ export class ForienSceneActivate extends ForienScene {
 
 export class ForienScenesActivate extends ForienScenes {
   static entity = 'SceneActivate';
-  static activity = 'Activate';
+  static activity() {
+    return game.i18n.localize('ForienSceneNavigator.Activity.Activate');
+  }
 }

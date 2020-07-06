@@ -1,5 +1,10 @@
 {
-  "ForienUnidentifiedItems": {
+  "ForienSceneNavigator": {
+    "Activity": {
+      "Open": "View",
+      "Activate": "Activate"
+    },
+
     "Settings": {
       "playersWelcomeScreen": {
         "Enable": "Display Welcome Screen to Players",

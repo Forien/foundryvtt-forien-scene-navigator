@@ -28,6 +28,22 @@ Simply hold a key before you start dragging Scene from SceneSidebar and drag Sce
 
 *If you have **any** suggestion or idea on new contents, hit me up on Discord!*
 
+## Translations
+
+If you are interested in translating my module, simply make a new Pull Request with your changes, or contact me on Discord.
+
+#### How to translate
+
+I maintain both English and Polish translation of this module, so you check on those two to see how translation file can look like. 
+
+Order of Localization Strings inside a `.json` file is indifferent. 
+
+Localization file can be either expanded (nested) JSON or flat JSON but **must be** either completely flat, or completely expanded (nested). Not partially both. 
+
+##### What is `missing` Folder?
+
+The `lang/missing/` folder contains files for all languages showing all Localization Strings that are in the Module, but are not covered by that Language.  
+
 ## Contact
 
 If you wish to contact me for any reason, reach me out on Discord using my tag: `Forien#2130`
