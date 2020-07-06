@@ -20,6 +20,7 @@ Simply hold a key before you start dragging Scene from SceneSidebar and drag Sce
 * Hold Control to create **Open Scene** link.
 * Hold Alt to create **Activate Scene** link.  
 
+![Links](https://i.gyazo.com/f09907d82946dd0afd209063a4f06221.png) ![Codes](https://i.gyazo.com/d25a8bc23bad1c42433585cdca176beb.png)
 
 ## Future plans
 
