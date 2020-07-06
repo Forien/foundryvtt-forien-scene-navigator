@@ -13,7 +13,7 @@
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.6.5",
   "url": "https://github.com/Forien/foundryvtt-forien-scene-navigator",
-  "manifest": "https://raw.githubusercontent.com/Forien/foundryvtt-forien-scene-navigator/v0.1.1/module.json",
+  "manifest": "https://raw.githubusercontent.com/Forien/foundryvtt-forien-scene-navigator/master/module.json",
   "download": "https://github.com/Forien/foundryvtt-forien-scene-navigator/releases/download/v0.1.1/v0.1.1.zip",
   "readme": "https://github.com/Forien/foundryvtt-forien-scene-navigator/blob/v0.1.1/README.md",
   "changelog": "https://github.com/Forien/foundryvtt-forien-scene-navigator/blob/v0.1.1/changelog.md",
