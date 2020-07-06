@@ -1,32 +1,39 @@
 # FoundryVTT - Forien's Scene Navigator
-**[Current version]**: v0.1.0  
-**[Compatibility]**: *FoundryVTT* 0.6.0+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/forien/foundryvtt-forien-scene-navigator?style=for-the-badge) 
+![GitHub Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-scene-navigator/latest/total?style=for-the-badge) 
+![GitHub All Releases](https://img.shields.io/github/downloads/Forien/foundryvtt-forien-scene-navigator/total?style=for-the-badge&label=Downloads+total)  
+**[Compatibility]**: *FoundryVTT* 0.6.0+  
+**[Systems]**: *any*  
+**[Languages]**: *any*  
 
-This module is a collection of custom trappings and features for Warhammer Fantasy Role-Play 4th edition game system for Foundry Virtual Table Top
-
+This module provides ability to create Scene Entity Links that when clicked Open or Activate a Scene.
 
 ## Installation
 
-1. Install Forien's Scene Navigator using manifest URL: https://raw.githubusercontent.com/Forien/forien-scene-navigator/master/module.json
-2. While loaded in World, enable Forien's Scene Navigator module.
+1. Install Forien's Scene Navigator using manifest URL: https://raw.githubusercontent.com/Forien/foundryvtt-forien-scene-navigator/master/module.json
+2. While loaded in World, enable **_Forien's Scene Navigator_** module.
 
-
-## Features
+## Usage
+Simply hold a key before you start dragging Scene from SceneSidebar and drag Scene into Journal (or any rich text editor like [Quest Log's](https://github.com/Forien/foundryvtt-forien-quest-log) description).
+  
+##### Supported Keys:
+* Hold Control to create **Open Scene** link.
+* Hold Alt to create **Activate Scene** link.  
 
 
 ## Future plans
 
-*If you have **any** suggestion or idea on new contents, hit me up on Discord!*
+* Currently none. Maybe refactor code when Foundry allows to properly declare custom Text Enrichments
 
+*If you have **any** suggestion or idea on new contents, hit me up on Discord!*
 
 ## Contact
 
 If you wish to contact me for any reason, reach me out on Discord using my tag: `Forien#2130`
 
+## Support
 
-## Acknowledgments
-
-* Thanks to Atropos for his relentless work on developing and improving the Foundry VTT
+If you wish to support me, please consider [becoming my Patreon](https://www.patreon.com/forien) or donating [through Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6P2RRX7HVEMV2&source=url). Thanks!
 
 ## License
 

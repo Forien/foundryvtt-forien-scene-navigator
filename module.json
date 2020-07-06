@@ -1,25 +1,24 @@
 {
   "name": "forien-scene-navigator",
   "title": "Forien's Scene Navigator",
-  "description": "",
+  "description": "Allows creating Entity Links to Activate and Open Scenes",
   "author": "Forien — Forien#2130",
   "authors": [
     {
       "name": "Forien",
-      "url": "https://github.com/Forien/forien-scene-navigator"
+      "url": "https://github.com/Forien/foundryvtt-forien-scene-navigator"
     }
   ],
   "version": "0.1.0",
   "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.6.2",
-  "url": "https://github.com/Forien/forien-scene-navigator",
-  "manifest": "https://raw.githubusercontent.com/Forien/forien-scene-navigator/v0.1.0/module.json",
-  "download": "https://github.com/Forien/forien-scene-navigator/archive/v0.1.0.zip",
-  "readme": "https://github.com/Forien/forien-scene-navigator/blob/v0.1.0/README.md",
-  "changelog": "https://github.com/Forien/forien-scene-navigator/blob/v0.1.0/changelog.md",
-  "bugs": "https://github.com/Forien/forien-scene-navigator/issues",
-  "scripts": [
-    "./scripts/init.js",
-    "./scripts/navigator.js"
+  "compatibleCoreVersion": "0.6.5",
+  "url": "https://github.com/Forien/foundryvtt-forien-scene-navigator",
+  "manifest": "https://raw.githubusercontent.com/Forien/foundryvtt-forien-scene-navigator/v0.1.0/module.json",
+  "download": "https://github.com/Forien/foundryvtt-forien-scene-navigator/archive/v0.1.0.zip",
+  "readme": "https://github.com/Forien/foundryvtt-forien-scene-navigator/blob/v0.1.0/README.md",
+  "changelog": "https://github.com/Forien/foundryvtt-forien-scene-navigator/blob/v0.1.0/changelog.md",
+  "bugs": "https://github.com/Forien/foundryvtt-forien-scene-navigator/issues",
+  "esmodules": [
+    "./modules/init.mjs"
   ]
 }
