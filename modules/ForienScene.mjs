@@ -16,12 +16,13 @@ class ForienScenes extends Scenes {
   static get(id) {
     let entity = game.scenes.get(id);
     let newEntityData = duplicate(entity);
-    newEntityData.name = this.activity() + ": " + newEntityData.name;
+    let activity = this.activity();
+    newEntityData.name = activity + ": " + newEntityData.name;
     let newEntity = {
       id: entity._id,
       _id: entity._id,
       entity: this.entity,
-      name: this.activity + ": " + entity.name,
+      name: activity + ": " + entity.name,
       data: newEntityData
     };
     newEntity = mergeObject(newEntity, entity);
