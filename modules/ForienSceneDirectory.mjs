@@ -2,10 +2,11 @@ export default class ForienSceneDirectory extends SceneDirectory {
 
   /** @override */
   _onDragStart(event) {
+    console.log(event);
     let li = event.currentTarget.closest(".directory-item");
     const dragData = {type: this.constructor.entity, id: li.dataset.entityId};
 
-    if (event.ctrlKey === true) {
+    if (event.ctrlKey === true || event.metaKey === true) {
       dragData.type = "SceneOpen";
     } else if (event.altKey === true) {
       dragData.type = "SceneActivate";

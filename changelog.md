@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.6 
+* Added support for ⌘ button in macOS
+
 ## v0.1.5
 * Fixed conflict with Quick Scene Viewer
 

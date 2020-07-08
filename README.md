@@ -16,11 +16,31 @@ This module provides ability to create Scene Entity Links that when clicked Open
 ## Usage
 Simply hold a key before you start dragging Scene from SceneSidebar and drag Scene into Journal (or any rich text editor like [Quest Log's](https://github.com/Forien/foundryvtt-forien-quest-log) description).
   
-##### Supported Keys:
+##### Supported Keys (Windows & Linux):
 * Hold Control to create **Open Scene** link.
-* Hold Alt to create **Activate Scene** link.  
+* Hold Alt to create **Activate Scene** link.
+
+##### Supported Keys (macOS):
+* Hold Command (`⌘`) to create **Open Scene** link. 
+* Hold Alt to create **Activate Scene** link.
+
+_On macOS you **need to release** key, before you drop link onto rich text editor!_  
+
+#### Examples
 
 ![Links](https://i.gyazo.com/f09907d82946dd0afd209063a4f06221.png) ![Codes](https://i.gyazo.com/d25a8bc23bad1c42433585cdca176beb.png)
+
+## Browser and OS compatibility
+
+|            	| Chrome 	| Firefox 	| Electron 	|
+|------------	|--------	|---------	|----------	|
+| Windows 10 	| ✓      	| ✓       	| ✓        	|
+| Ubuntu     	| ✓      	|        	| ✓        	|
+| macOS      	|       	|         	| ✓        	|
+* _Electron_ is browser used by Foundry VTT Application
+* ✓ means tested and working
+* ✗ means tested and not working
+* blank means untested
 
 ## Future plans
 
