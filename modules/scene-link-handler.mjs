@@ -5,6 +5,9 @@ export default class SceneLinkHandler {
 
   static registerCustomEntities() {
     CONFIG.ui.scenes = ForienSceneDirectory;
+    // to preserve Hook names
+    Object.defineProperty(ForienSceneDirectory, 'name', {value: 'SceneDirectory'});
+
     CONST.ENTITY_LINK_TYPES.push("SceneOpen");
     CONST.ENTITY_LINK_TYPES.push("SceneActivate");
     CONFIG["SceneOpen"] = {

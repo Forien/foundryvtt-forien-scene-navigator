@@ -1,4 +1,5 @@
 export default class ForienSceneDirectory extends SceneDirectory {
+
   /** @override */
   _onDragStart(event) {
     let li = event.currentTarget.closest(".directory-item");
