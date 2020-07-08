@@ -52,25 +52,17 @@ _On macOS you **need to release** key, before you drop link onto rich text edito
 
 If you are interested in translating my module, simply make a new Pull Request with your changes, or contact me on Discord.
 
-#### How to translate
+## Support
 
-I maintain both English and Polish translation of this module, so you check on those two to see how translation file can look like. 
+If you wish to support me, please consider [becoming my Patreon](https://www.patreon.com/forien) or donating [through Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6P2RRX7HVEMV2&source=url). Thanks!
 
-Order of Localization Strings inside a `.json` file is indifferent. 
+## Acknowledgements
 
-Localization file can be either expanded (nested) JSON or flat JSON but **must be** either completely flat, or completely expanded (nested). Not partially both. 
-
-##### What is `missing` Folder?
-
-The `lang/missing/` folder contains files for all languages showing all Localization Strings that are in the Module, but are not covered by that Language.  
+* Great thanks to Discord member Voldemalort for help with debugging module in macOS
 
 ## Contact
 
 If you wish to contact me for any reason, reach me out on Discord using my tag: `Forien#2130`
-
-## Support
-
-If you wish to support me, please consider [becoming my Patreon](https://www.patreon.com/forien) or donating [through Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6P2RRX7HVEMV2&source=url). Thanks!
 
 ## License
 
